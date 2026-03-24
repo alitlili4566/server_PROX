@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 app.post("/login", async (req, res) => {
     try {
-        const response = await fetch("https://aserver.infinityfreeapp.com/game_server/login.php", {
+        const response = await fetch("https://aserver.infinityfreeapp.com/game_server/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded",
